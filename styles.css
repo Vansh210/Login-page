@@ -7,8 +7,7 @@ body {
     height: 100vh;
     margin: 0;
 }
-
-.login-container {
+.optin-container {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -16,28 +15,23 @@ body {
     width: 300px;
     text-align: center;
 }
-
 h1 {
     margin-bottom: 20px;
 }
-
 .input-group {
     margin-bottom: 15px;
     text-align: left;
 }
-
 .input-group label {
     display: block;
     margin-bottom: 5px;
 }
-
 .input-group input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
 button {
     width: 100%;
     padding: 10px;
@@ -48,9 +42,6 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #0056b3;
 }
-
-
