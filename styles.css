@@ -39,7 +39,7 @@ h1 {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4d574d;
+    background-color: #007bff;
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -47,5 +47,5 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #4d754d;
 }
