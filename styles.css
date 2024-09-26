@@ -41,7 +41,7 @@ main {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: flex-start;
+    text-align: center;
 }
 
 .opt-in h1 {
@@ -57,7 +57,7 @@ main {
 .opt-in form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Change this line */
 }
 
 .opt-in form label {
