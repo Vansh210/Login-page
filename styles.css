@@ -1,31 +1,32 @@
 body {
     font-family: 'Arial, sans-serif';
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 main {
@@ -37,43 +38,51 @@ main {
 
 .opt-in {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 2rem;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .opt-in h1 {
+    margin-bottom: 1rem;
     color: #333;
 }
 
 .opt-in p {
+    margin-bottom: 2rem;
     color: #666;
 }
 
-#opt-in-form {
+.opt-in form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#opt-in-form input {
-    padding: 10px;
-    margin: 10px 0;
-    width: 80%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.opt-in form label {
+    margin-bottom: 0.5rem;
+    color: #333;
 }
 
-#opt-in-form button {
-    padding: 10px 20px;
+.opt-in form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.opt-in form button {
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 4px;
     background-color: #333;
     color: #fff;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-#opt-in-form button:hover {
+.opt-in form button:hover {
     background-color: #555;
 }
