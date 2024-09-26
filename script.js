@@ -1,8 +1,8 @@
-document.getElementById('loginForm').addEventListener('submit', function(event) {
+document.getElementById('optinForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-    alert(`Username: ${username}\nPassword: ${password}`);
+    const fullname = document.getElementById('fullname').value;
+    const email = document.getElementById('email').value;
+    console.log(`Full Name: ${fullname}\nEmail: ${email}`);
+    alert(`Thank you for subscribing, ${fullname}!`);
+    window.location.href = 'https://sites.google.com/view/mindful-connect/thank-you';
 });
-
-
