@@ -1,13 +1,13 @@
 body {
     font-family: 'Arial, sans-serif';
     background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #333;
+    color: #fff;
     padding: 10px 0;
 }
 
@@ -23,32 +23,41 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
 .opt-in {
-    text-align: center;
-    margin: 50px auto;
+    background-color: #fff;
     padding: 20px;
-    background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    text-align: center;
 }
 
 .opt-in h1 {
-    color: #4CAF50;
+    color: #333;
 }
 
-.opt-in form {
+.opt-in p {
+    color: #666;
+}
+
+#opt-in-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.opt-in input[type="email"] {
+#opt-in-form input {
     padding: 10px;
     margin: 10px 0;
     width: 80%;
@@ -56,15 +65,15 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.opt-in button {
+#opt-in-form button {
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #333;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.opt-in button:hover {
-    background-color: #45a049;
+#opt-in-form button:hover {
+    background-color: #555;
 }
