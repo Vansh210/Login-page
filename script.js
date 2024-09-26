@@ -1,7 +1,6 @@
-document.getElementById('optinForm').addEventListener('submit', function(event) {
+document.getElementById('opt-in-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    const fullname = document.getElementById('fullname').value;
     const email = document.getElementById('email').value;
-    console.log(`Full Name: ${fullname}\nEmail: ${email}`);
-    window.location.href = 'https://sites.google.com/view/mindful-connect/thank-you';
+    alert(`Thank you for subscribing with ${email}!`);
+    // Here you can add your code to handle the form submission, e.g., sending the email to your server
 });
