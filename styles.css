@@ -1,8 +1,4 @@
 body {
-    h1 {
-  color: #4d754d;
-  
-}
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     display: flex;
@@ -11,6 +7,7 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 .optin-container {
     background-color: #fff;
     padding: 20px;
@@ -19,33 +16,40 @@ body {
     width: 300px;
     text-align: center;
 }
+
 h1 {
+    color: #4d754d;
     margin-bottom: 20px;
 }
+
 .input-group {
     margin-bottom: 15px;
     text-align: left;
 }
+
 .input-group label {
     display: block;
     margin-bottom: 5px;
 }
+
 .input-group input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #4d754d; /* Updated color */
     border: none;
     border-radius: 4px;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
 }
+
 button:hover {
-    background-color: #4d754d;
+    background-color: #3e5e3e; /* Slightly darker shade for hover effect */
 }
