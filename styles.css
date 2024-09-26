@@ -46,7 +46,7 @@ main {
 
 .opt-in h1 {
     margin-bottom: 1rem;
-    color: #333;
+    color: #4d754d;
 }
 
 .opt-in p {
@@ -84,5 +84,5 @@ main {
 }
 
 .opt-in form button:hover {
-    background-color: #555;
+    background-color: #4d754d;
 }
