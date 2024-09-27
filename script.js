@@ -1,4 +1,6 @@
 document.getElementById('opt-in-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    alert('Thank you for subscribing!');
+    window.location.href = 'https://sites.google.com/view/mindful-connect/thank-you';
+});
+
 });
